@@ -531,7 +531,7 @@ class UpgradeSystem {
                 game: this.game,
                 name: "DarkBolt Retrieval CD Decrease", 
                 upgrade() {this.game.adventurer.boltCooldownRetrieve -= this.game.upgrade.bombRetrieveCD;}, 
-                description: `Decrease Bomb Retrieval Cooldown by ${this.bombRetrieveCD}`,
+                description: `Decrease Dark Bolt Retrieval Cooldown by ${this.bombRetrieveCD}`, 
                 type: "DarkBolt",
                 max: 19,
                 current: 0,
